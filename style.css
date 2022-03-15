@@ -1,0 +1,392 @@
+.intro
+	{
+		/*font-family: 'Smooch', cursive;*/
+		font-family: 'Kaushan Script', cursive;
+		color:rgb(238, 236, 236);
+		font-size: 70px;
+		font-weight: bolder;
+		padding-top: 40px;
+		padding-bottom: 20px;
+		font-family: 800;
+		letter-spacing: 2px;
+		overflow: hidden;
+		animation: animateHeader 5s;
+	}
+/*.secondContent
+{
+	background-image: url("Background/img21.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 300px;
+}*/
+/*.secondContent
+{
+	background-color: #EDC7B7;
+}*/
+.home-link, .about-link, .tools-link, .project-link, .contact-link
+{
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+}
+.about-me2	
+{
+	padding-top: 20px;
+	display: flex;
+	gap: 100px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+.about-written
+{
+	display: flex;
+	flex-direction: column;
+	padding-top: 100px;
+}
+.img-laptop
+{
+	height: 500px;
+	width: 600px;
+}
+.about
+{
+	font-size: 50px;
+	/*font-family: 'Great Vibes', cursive;*/
+	font-family: 'Mali', cursive;
+	color: black;
+	padding-bottom: 20px;
+	font-weight: 800;
+}
+.para01
+{
+	font-size: 19px;
+	/*font-family: 'Tangerine', cursive;*/
+	/*font-family: 'Great Vibes', cursive;*/
+	/*font-family: 'Tangerine',cursive;*/
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	padding-bottom: 17px;
+}
+.para02
+{
+	font-size: 19px;
+	font-family: 'Oswald', cursive;
+	/*font-family: 'Sacramento', cursive;*/
+	color: black;
+	padding-bottom: 10px;
+}
+.in-bet
+{
+	font-family: 'Mali',cursive;
+	font-size: 20px;
+}
+.thirdContent
+{
+	background-image: url("https://i.postimg.cc/k5dbPwcJ/img19.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+.work-related
+{
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.my-work
+{
+	font-family: 'Tangerine', cursive;
+	font-size: 70px;
+	color: white;
+	padding-top: 50px;
+}
+.work-para, .look
+{
+	font-family: 'Oswald',sans-serif;
+	font-size: 25px;
+	color: white
+}
+.btn-glimpse
+{
+	font-family: 'Mali', cursive;
+	height: 50px;
+	width: 300px;
+	border: none;
+	border-radius: 10px;
+	color: black;
+	font-size: 25px;
+	font-weight: 800;
+}
+
+button:active
+{
+	-webkit-box-shadow: inset 0px 0px 15px purple;
+	-moz-box-shadow: inset 0px 0px 15px purple;
+	box-shadow: inset 0px 0px 25px purple;
+	outline: none;
+}
+.fourContent
+{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.tools-related
+{
+	display: flex;
+	gap: 340px;
+	justify-content: center;
+	align-items: center;
+}
+.tools-know
+{
+	font-family: 'Kaushan Script', cursive;
+	color: black;
+	font-size: 70px;
+	text-align: center;
+}
+.icon-square
+{
+	font-size: 22px;
+	background-color: #E7717D;
+	border-radius: 14px;
+}
+.tools-list
+{
+	display: flex;
+	gap: 34px;
+}
+.tools-list1
+{
+	padding-left: 40px;
+}
+.tools-list1, .tools-list2
+{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	font-family: 'Mali', cursive;
+	font-size: 19px;
+}
+.card-related
+{
+	display: flex;
+	gap: 25px;
+	justify-content: center;
+	align-items: center;
+}
+.card1, .card2, .card3
+{
+	height: 250px;
+	width: 250px;
+	background-color: #E7717D;
+	text-align: center;
+	align-items: center;
+}
+.card-header
+{
+	font-family: 'Mali', cursive;
+	font-size: 34px;
+	color:black;
+	padding-top: 10px;
+	font-weight: 800;
+}
+.card-para
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color: black;
+	padding: 20px;
+}
+/*.card1:hover,  .card2:hover, .card3:hover
+{
+	background-color: #6F2232;
+	color: white;
+}
+.card-header:hover, .card-para:hover
+{
+	color: white;
+}*/
+
+.fiveContent
+{
+	background-image: url("https://i.postimg.cc/Yq54Q8T6/img22.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	display: flex;
+	gap: 100px;
+	align-items: center;
+	justify-content: center;
+}
+.contactDiv
+{
+	display: flex;
+	gap: 10px;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.underline2
+{
+	border-bottom: 2px solid black;
+}
+.btn-press, .btn-go
+{
+	height: 40px;
+	width: 200px;
+	border: none;
+	border-radius: 17px;
+	font-family: 'Mali', cursive;
+	font-size: 20px;
+	color: black;
+}
+.btn-go
+{
+	height: 40px;
+	width: 100px;
+	border: none;
+	border-radius: 17px;
+	font-family: 'Mali', cursive;
+	font-size: 20px;
+	color: black;
+}
+.last-para, .connect
+{
+	font-family: 'Oswald', cursive;
+	font-size: 20px;
+	color: black;
+	font-weight: 800;
+}
+.last-para
+{
+	font-weight: lighter;
+	font-size: 17px;
+	padding-bottom: 20px;
+}
+.f-home, .f-about, .f-skill, .f-project, .f-help
+{
+	text-decoration: none;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+.menu-bottom
+{
+	display: flex;
+	gap: 7px;
+	flex-direction: column;
+}
+.menu22
+{	
+	font-family: 'Oswald', cursive;
+	font-size: 20px;
+	color: black;
+	font-weight: 800;
+	padding-top: 20px;
+}
+.thirCol
+{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.contactRow
+{
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.social-media
+{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.contact-foot, .social-media, .enquire, .noteAsk
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+.phone
+{
+	font-family: 'Oswald',sans-serif;
+	font-size: 20px;
+	padding-bottom: 80px;
+}
+.iconList
+{
+	display: flex;
+	gap: 15px;
+}
+.ending
+{
+	font-family: 'Mali', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.address
+{
+	font-family: 'Oswald',sans-serif;
+	font-size: 15px;
+}
+.placeType
+{
+	display: flex;
+	gap: 10px;;
+}
+.inputType
+{
+	height: 40px;
+	width: 200px;
+	border: none;
+	border-radius: 15px;
+}
+input:focus
+{
+	outline: none;
+}
+.noteAsk
+{
+	padding-top: 10px;
+	font-size: 17px;
+	padding-bottom: 7px;
+}
+.next
+{
+	background-image: url('Background/img10.jpg');
+}
+.about-modal
+{
+	opacity: 0;
+}
+div.model-content
+{
+	height: 400px;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+	font-family: 'Tangerine', cursive;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	background-image: url('Background/img10.jpg');
+}
+.modal-header
+{
+	display: flex;
+	gap: 20px;
+}
+.modal-name, .modal-email, .modal-msg
+{
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+}
